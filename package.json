@@ -7,6 +7,9 @@
     "email": "m@hvdev.cc",
     "url": "https://www.hvdev.cc/"
   },
+  "main": "public/build/bundle.js",
+  "module": "public/build/bundle.mjs",
+  "svelte": "src/main.js",
   "repository": {
     "url": "https://github.com/hvdev2k1/velvetium.git"
   },
