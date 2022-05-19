@@ -4,7 +4,6 @@ import resolve from '@rollup/plugin-node-resolve';
 
 const pkg = require('./package.json')
 
-
 export default [
 	{
 		input: 'src/main.js',
