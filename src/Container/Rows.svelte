@@ -1,19 +1,17 @@
 <script>
+    import Container from "./Container.svelte";
+
     export let reverse = false;
 </script>
 
-<div class="container">
-    <div class:reverse class="rows">
+<Container>
+    <div class:reverse>
         <slot />
     </div>
-</div>
+</Container>
 
 <style>
-    .container {
-        flex: 1 1 0;
-    }
-
-    .rows {
+    div {
         display: flex;
         flex-direction: column;
     }
